@@ -1,6 +1,7 @@
 [build]
   command = "NODE_ENV=production gatsby build"
   publish = "public/"
+  environment = { NODE_ENV = "https://sweprint-qy4k5.ondigitalocean.app"}
 
 [template]
   incoming-hooks = ["Ghost"]
